@@ -11,19 +11,18 @@ html {
 
 body {
     display: flex;
-    color: #323232;
-    background-color: #fefefe;
+    color: #303030;
+    background-color: #FCFCFC;
     font-family: 'Tajawal';
     font-size: 1.6em;
     font-weight: 400;
-    /* letter-spacing: .0625em; */
-    line-height: 1.8em
+    line-height: 1.4em;
 }
 
 @media only screen and (min-device-width:320px) and (max-device-width:480px) {
     body {
-        font-size: 1.4em;
-        line-height: 1.6em
+        font-size: 1.6em;
+        line-height: 1.4em
     }
 }
 
@@ -35,13 +34,13 @@ a {
     padding-top: 7px;
     padding-right: 6px;
     padding-bottom: 0px;
-    border-radius: 4px;
-    background-color: #eeeeee;
+    border-radius: 3px;
+    background-color: #F0F0F0;
 }
 
 a:focus,
 a:hover {
-    background-color: #dedede;
+    background-color: #EBEBEB;
 }
 
 p {
